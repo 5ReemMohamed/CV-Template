@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --mainBackground:#e1e1e1;
+    --mainColor:black;
+    --secondColor:#31373d;
+   
+}
+
+
+.bg{
+    background-color: var(--mainBackground);
+}
+.offcanvas-body{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-brand{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sp{
+    font-size: 12px;
+    font-weight: 400;
+}
+.nav-link{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.selfimage{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+.fa-solid{
+    border: none;
+}
+.h1font{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    opacity: 1;
+}
+
+.h5font{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 13px;
+}
+
+.pfont{
+    font-size: 16px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+a .resume{
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eea302;
+    color: var(--mainColor);
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid var(--mainColor);
+    text-align: center; 
+    margin-right: 15px;
+}
+a .project {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ff3b25;
+    color: var(--mainColor);
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid var(--mainColor);
+    text-align: center;
+    margin-right: 15px;
+}
+
+a .contact {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #80d8da;
+    color: var(--mainColor);
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid var(--mainColor);
+    text-align: center;
+}
+header div button:hover{
+    background-color: beige;
+   transition-property: all;
+   transition-duration: .4s;
+   transition-timing-function: ease;
+}
+
+ header div  hr{
+    margin-top: 200px!important;
+}
+
+footer p a{
+    font-size: 20px;
+    padding: 0px 5px;
+    color: var(--mainColor);
+}
+
+main h1{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+main div h2{
+    padding-left: 150px;
+}
+
+main div .span{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 5px;
+}
+main div a{
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+
+
+.projectp p{
+    margin-top: 55px;
+    margin-left: 150px;
+    margin-right: 0px;
+}
+
+main div img{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+}
+
+.contactinfo{
+    padding-left: 150px;
+}
+.contactvalue{
+    padding-left: 150px;
+}
+input,textarea{
+    border: 1px solid var(--mainColor)!important;
+    background-color: var(--mainBackground)!important;
+    border-radius: 0!important;
+    width: 90%!important;
+}
+
+.submit{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eea302;
+    color: var(--mainColor);
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid var(--mainColor);
+    text-align: center; 
+    margin-right: 15px;
+}
+
+.submit:hover{
+    background-color: beige;
+   transition-property: all;
+   transition-duration: .4s;
+   transition-timing-function: ease;
+}
+
+@media (max-width:768px) {
+    .offcanvas-body{
+        display: flex;
+        justify-content: center;
+      
+    }
+    .sp{
+        font-size: 8px;
+    }  
+    .selfimage{
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+       
+    } 
+    .h1font{
+        text-align: center;
+        font-size: 60px;
+
+    }
+    
+    .h5font{
+        text-align: center;
+        font-size: 18px;
+        padding-left: 0;
+    }
+    
+    .pfont{
+        text-align: center;
+        font-size: 14px;
+        padding-left: 0;
+    }
+    .resume{
+    
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        font-size: 18px;
+       
+    }
+    .project{
+     
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        font-size: 18px;
+        
+    }
+    
+    .contact{
+     
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        font-size: 18px;
+        
+    }
+
+    main h1{
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    main div h2{
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    main div p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .projectp p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    main div img{
+        margin-left: 0px;
+    }
+
+    .contactinfo{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .contactvalue{
+        padding-left: 0px;
+        text-align: center;
+    } 
+    input,textarea{
+        width: 100%!important;
+    }   
+}
